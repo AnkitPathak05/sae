@@ -1,0 +1,433 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  background-color: #F4F4F4;
+  overflow-x: hidden;
+}
+
+.first {
+  height: 50vh;
+  background-color: #1B1A1B;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+#p1 {
+  font-size: 4rem;
+  font-weight: 400;
+  display: block;
+}
+
+#p2 {
+  height: 2rem;
+  padding: 1rem;
+  font-size: 1.3rem;
+  width: 70%;
+}
+
+#second {
+  width: 100%; 
+  min-height: 70vh;
+  background-color: #1B1A1B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.second {
+  width: 70%;
+  height: 90%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(130, 52, 23, 0.65));
+  border-radius: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.second h1 {
+  font-size: 3rem;
+  margin-top: 3rem;
+}
+
+.highlight {
+  color: #E25420;
+}
+
+.third {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1.5rem;
+  height: max-content;
+}
+
+#left {
+  width: 40%;
+  font-size: large;
+  text-align: justify;
+  margin: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section {
+  width: 100%; 
+  background: linear-gradient(#ffffff, #1d1b1d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.benefits h1 {
+  margin: 3rem;
+  font-size: 3rem;
+  color: #02033B;
+}
+
+.items {
+  background-color: #FFFFFF;
+  border-radius: 5rem;
+  width: 70vw;
+  height: 90vh;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.item {
+  height: 50%;
+  width: 30%;
+  color: #02033B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+.item img {
+  height: 5rem;
+  margin-bottom: 0.5rem;
+}
+
+.item h2 {
+  line-height: 1;
+  margin-bottom: 2rem;
+}
+
+.education h2 {
+  margin-bottom: 0.5rem;
+}
+
+.sponsors {
+  width: 100%; 
+  background-color: #1B1A1B;
+  height: min-content;
+  padding: 1rem;
+}
+
+.sponsors h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.simages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 1rem; 
+  padding-left: 1rem;
+}
+
+.simages img {
+  width: 30%;
+  margin: 1.5rem;
+}
+
+.team {
+  width: 100%; 
+  min-height: 80vh;
+  background-color: #F4F4F4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 90%;
+  height: 90%;
+  border-radius: 1.5rem;
+  border: 4px solid black;
+  background-color: #FFFFFF;
+  padding: 1rem 3rem;
+  font-weight: 700;
+  line-height: 80px;
+}
+
+.box h1 {
+  color: black;
+  font-size: 3rem;
+}
+
+.innerbox {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.verticals {
+  width: 35%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+}
+
+.verticals div {
+  width: 100%;
+  height: 17%;
+  margin: 3px;
+}
+
+.verticals div button {
+  width: 100%;
+  height: 100%;
+  font-size: 1.7rem;
+  text-align: left;
+  padding-left: 1rem;
+  border-radius: 0.6rem;
+  color: black;
+  font-weight: 700;
+  border: 2px solid #E7EEEC;
+  background-color: rgba(0, 0, 0, 0.02);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+}
+
+.timages {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timages img {
+  width: 98%;
+}
+
+#shortimg {
+  display: none;
+  width: 80vw;
+}
+
+
+@media (max-width:1376px){
+  .items {
+    width: 90vw;
+  }
+  .item {
+    width: 45%;
+    height: 30%;
+  }
+}
+
+@media (max-width: 1086px) {
+  .first, #second, .third, .section, .team {
+    flex-direction: column;
+  }
+
+  #p1 {
+    font-size: 3rem;
+  }
+
+  #p2 {
+    font-size: 1.1rem;
+    width: 85%;
+  }
+
+  .second {
+    width: 90%;
+  }
+
+  .second h1 {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+  }
+
+  .third {
+    flex-direction: column;
+  }
+
+  #left, #right {
+    width: 80%;
+    margin-top: 0.5rem;
+  }
+
+  #left {
+    font-size: 1.4rem;
+  }
+
+  #right img {
+    width: 16rem;
+  }
+
+  .items {
+    width: 90vw;
+    height: auto;
+  }
+
+  .item {
+    width: 45%;
+  }
+
+  .sponsors h1 {
+    font-size: 3rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .simages img {
+    width: 30%;
+  }
+
+  .box {
+    padding: 1rem 2rem;
+  }
+
+  .innerbox {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .verticals {
+    width: 90%;
+  }
+
+  .verticals div button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #shortimg {
+    display: block;
+    width: 80%;
+  }
+
+  .timages img {
+    display: none;
+  }
+
+  .timages {
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  #p1 {
+    font-size: 2.5rem;
+  }
+
+  #p2 {
+    font-size: 1rem;
+    width: 90%;
+  }
+
+  .second h1 {
+    font-size: 2rem;
+    margin-top: 1.6rem;
+  }
+
+  #left, #right {
+    width: 90%;
+  }
+
+  #right img {
+    width: 15rem;
+  }
+
+  .benefits h1 {
+    font-size: 2rem;
+  }
+
+  .items {
+    flex-direction: column;
+  }
+
+  .item {
+    width: 70vw;
+    margin: 0.5rem;
+  }
+
+  .sponsors h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .verticals {
+    width: 90%;
+  }
+
+  .team {
+    height: auto;
+  }
+
+  .box {
+    padding: 1rem;
+  }
+
+  .box h1{
+    font-size: 2.5rem;
+  }
+
+  .timages {
+    height: auto;
+  }
+
+  #shortimg{
+    width: 120%;
+  }
+}
+
+@media (max-width: 502px){
+  .items{
+    width: 95%;
+  }
+  .verticals{
+    width: 90%;
+  }
+
+  .box h1{
+    font-size: 2rem;
+  }
+  .verticals  div button{
+    font-size: 1rem;
+  }
+  #shortimg{
+    width: 130%;
+  }
+
+}
