@@ -26,10 +26,20 @@ const Footer = () => {
       <div className="social citem">
         <h2>Socials</h2>
         <div>
-          <span><img src="https://www.saeiitbhu.in/images/social/instagram_hero.svg" alt="sae instagram" />  Instagram</span>
-          <span><img src="https://www.saeiitbhu.in/images/social/facebook_hero.svg" alt="sae instagram" />  Facebook</span>
-          <span><img src="https://www.saeiitbhu.in/images/social/linkedin_hero.svg" alt="sae instagram" />  LinkedIn</span>
-          <span><img src="https://www.saeiitbhu.in/images/social/mail_hero.svg" alt="sae instagram" />  Email</span>
+          <a href="https://www.instagram.com/saecollegiateclubiitbhu/">
+          <span><img src="https://www.saeiitbhu.in/images/social/instagram_hero.svg" alt="sae instagram" />  Instagram</span></a>
+          <a href="https://www.facebook.com/SAEIITBHU/">
+          <span><img src="https://www.saeiitbhu.in/images/social/facebook_hero.svg" alt="sae facebook" />  Facebook</span>
+          </a>
+          
+          <a href="https://in.linkedin.com/company/sae-collegiate-club-iit-varanasi">
+          <span><img src="https://www.saeiitbhu.in/images/social/linkedin_hero.svg" alt="sae LinkedIn" />  LinkedIn</span>
+          </a>
+          
+          <a href="">
+          <span><img src="https://www.saeiitbhu.in/images/social/mail_hero.svg" alt="sae email" />  Email</span>
+          </a>
+          
         </div>
       </div>
       <div className="email citem">
@@ -49,10 +59,19 @@ const Footer = () => {
 
     <div className="shortscreen">
         <div>
-          <span><img src="https://www.saeiitbhu.in/images/social/instagram_hero.svg" alt="sae instagram" /></span>
-          <span><img src="https://www.saeiitbhu.in/images/social/facebook_hero.svg" alt="sae instagram" /></span>
-          <span><img src="https://www.saeiitbhu.in/images/social/linkedin_hero.svg" alt="sae instagram" /></span>
-          <span><img src="https://www.saeiitbhu.in/images/social/mail_hero.svg" alt="sae instagram" /></span>
+        <a href="https://www.instagram.com/saecollegiateclubiitbhu/">
+          <span><img src="https://www.saeiitbhu.in/images/social/instagram_hero.svg" alt="sae instagram" /></span></a>
+          <a href="https://www.facebook.com/SAEIITBHU/">
+          <span><img src="https://www.saeiitbhu.in/images/social/facebook_hero.svg" alt="sae facebook" /></span>
+          </a>
+          
+          <a href="https://in.linkedin.com/company/sae-collegiate-club-iit-varanasi">
+          <span><img src="https://www.saeiitbhu.in/images/social/linkedin_hero.svg" alt="sae LinkedIn" /></span>
+          </a>
+          
+          <a href="">
+          <span><img src="https://www.saeiitbhu.in/images/social/mail_hero.svg" alt="sae email" /></span>
+          </a>
         </div>
         <h1><span>SAE</span> Collegiate Club</h1>
         <img src="https://www.saeiitbhu.in/images/footer/sae_logo.svg" alt="sae logo" id="img3"/>
